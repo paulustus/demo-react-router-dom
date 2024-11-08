@@ -21,7 +21,6 @@ function App() {
                 <Route exact path="/" component={Home} />
                 <Route exact path="/team" component={TeamInfo} />
                 <Route path="/team/:team" component={Team} />
-                <Route path="/team/new" component={Team} />
                 <Redirect exact path="/redi" to="/" />
                 <Route component={NotFound} />
             </Switch>
